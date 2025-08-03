@@ -39,6 +39,13 @@
         "relayer": "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42",
         "address": "0x924fF8657070da8e038F0B5867e09aFd7c46D1A9"
       }
+    },
+    "arbitrumsepolia": {
+      "0x810bCA522337827fC846edd5d34020080Ecbfc0B": {
+        "address": "0x810bCA522337827fC846edd5d34020080Ecbfc0B",
+        "relayer": "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42",
+        "type": "trustedRelayerIsm"
+      }
     }
   },
   "backlog": []

@@ -1,0 +1,46 @@
+{
+  "hook": {
+    "etherlinktestnet": {
+      "0x2c2e865b4F45A3c5540e51088a3232828C8cc7Ed": {
+        "type": "merkleTreeHook",
+        "address": "0x2c2e865b4F45A3c5540e51088a3232828C8cc7Ed"
+      },
+      "0x5Ce26a1ff9317EB3413519532cea57e7f25c8bD4": {
+        "type": "merkleTreeHook",
+        "address": "0x5Ce26a1ff9317EB3413519532cea57e7f25c8bD4"
+      },
+      "0xBcd75899c1907889dAfcF51f2bC60f8B20DC89bd": {
+        "owner": "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42",
+        "address": "0xBcd75899c1907889dAfcF51f2bC60f8B20DC89bd",
+        "type": "interchainGasPaymaster",
+        "beneficiary": "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42",
+        "oracleKey": "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42",
+        "overhead": {
+          "basesepolia": 75000
+        },
+        "oracleConfig": {
+          "basesepolia": {
+            "tokenExchangeRate": "11000000000",
+            "gasPrice": "1000058",
+            "tokenDecimals": 18
+          }
+        }
+      }
+    },
+    "testnetetherlink": {
+      "0x5DbE9B2Fd0B6Dd2672fbB4E47742E1C37F2690B7": {
+        "type": "merkleTreeHook",
+        "address": "0x5DbE9B2Fd0B6Dd2672fbB4E47742E1C37F2690B7"
+      }
+    }
+  },
+  "ism": {},
+  "backlog": [
+    {
+      "attempts": 23,
+      "lastAttempt": 1753375648745,
+      "message": "0x03000000010001f47b000000000000000000000000a5ea1cb1033f5d3bd207bf6a2a2504cf1c3e9f4200014a34000000000000000000000000783c4a0bb6663359281ad4a637d5af68f83ae21348656c6c6f21",
+      "dispatchTx": "0xcda6478f3abb7eb2b3d10d69991efdff26c8da70acbe1e4c78e9f7170c8828c8"
+    }
+  ]
+}

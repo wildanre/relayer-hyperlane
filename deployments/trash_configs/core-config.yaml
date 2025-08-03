@@ -1,0 +1,53 @@
+    owner: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+    defaultIsm:
+      type: staticAggregationIsm
+      modules:
+        - type: testIsm
+      threshold: 1
+    defaultHook:
+      owner: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+      type: interchainGasPaymaster
+      beneficiary: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+      oracleKey: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+      overhead:
+        arbitrumsepolia: 75000
+        basesepolia: 75000
+        optimismsepolia: 75000
+      oracleConfig:
+        arbitrumsepolia:
+          gasPrice: "100000000"
+          tokenExchangeRate: "11000000000"
+          tokenDecimals: 18
+        basesepolia:
+          gasPrice: "1000066"
+          tokenExchangeRate: "11000000000"
+          tokenDecimals: 18
+        optimismsepolia:
+          gasPrice: "1000250"
+          tokenExchangeRate: "11000000000"
+          tokenDecimals: 18
+    requiredHook:
+      owner: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+      type: interchainGasPaymaster
+      beneficiary: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+      oracleKey: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+      overhead:
+        arbitrumsepolia: 75000
+        basesepolia: 75000
+        optimismsepolia: 75000
+      oracleConfig:
+        arbitrumsepolia:
+          gasPrice: "100000000"
+          tokenExchangeRate: "11000000000"
+          tokenDecimals: 18
+        basesepolia:
+          gasPrice: "1000065"
+          tokenExchangeRate: "11000000000"
+          tokenDecimals: 18
+        optimismsepolia:
+          gasPrice: "1000250"
+          tokenExchangeRate: "11000000000"
+          tokenDecimals: 18
+    proxyAdmin:
+      owner: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+    

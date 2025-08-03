@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+blockExplorers:
+  - apiKey: DG7K8I1UG76QJMKKFEQJJ8R7B7X2P81ZI7
+    apiUrl: https://api-sepolia.basescan.org/api
+    family: etherscan
+    name: Base Sepolia Network Testnet Explorer
+    url: https://sepolia.basescan.org/
+chainId: 84532
+displayName: Basesepolia
+domainId: 84532
+isTestnet: true
+name: basesepolia
+nativeToken:
+  decimals: 18
+  name: Ether
+  symbol: ETH
+protocol: ethereum
+rpcUrls:
+  - http: https://sepolia.base.org
+technicalStack: opstack

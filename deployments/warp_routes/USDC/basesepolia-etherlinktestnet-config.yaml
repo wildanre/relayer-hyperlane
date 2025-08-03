@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0xEd15F92c4DDc8e88D4d4a25DA8cF01303b4aa289"
+    chainName: etherlinktestnet
+    collateralAddressOrDenom: "0x69f38FFB1aB8f8f8A43F3D8d3CDAAF184CD54EcE"
+    connections:
+      - token: ethereum|basesepolia|0xf13a1d04AEc87F2174ef9D4805dD89fcC4fF8463
+    decimals: 18
+    name: USDC
+    standard: EvmHypXERC20
+    symbol: USDC
+  - addressOrDenom: "0xf13a1d04AEc87F2174ef9D4805dD89fcC4fF8463"
+    chainName: basesepolia
+    collateralAddressOrDenom: "0x0B4b2CbE85A234167Dd41f6f5f333ed402fc09f0"
+    connections:
+      - token: ethereum|etherlinktestnet|0xEd15F92c4DDc8e88D4d4a25DA8cF01303b4aa289
+    decimals: 18
+    name: USDC
+    standard: EvmHypXERC20
+    symbol: USDC

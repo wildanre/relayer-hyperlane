@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../schema.json
+chainId: 128123
+displayName: Testnetetherlink
+domainId: 128123
+isTestnet: true
+name: testnetetherlink
+nativeToken:
+  decimals: 18
+  name: Tezos
+  symbol: XTZ
+protocol: ethereum
+rpcUrls:
+  - http: https://node.ghostnet.etherlink.com
+technicalStack: opstack

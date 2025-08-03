@@ -1,0 +1,30 @@
+defaultHook:
+  beneficiary: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+  oracleConfig:
+    basesepolia:
+      gasPrice: "1000058"
+      tokenDecimals: 18
+      tokenExchangeRate: "11000000000"
+  oracleKey: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+  overhead:
+    basesepolia: 75000
+  owner: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+  type: interchainGasPaymaster
+defaultIsm:
+  type: testIsm
+owner: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+proxyAdmin:
+  owner: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+requiredHook:
+  beneficiary: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+  oracleConfig:
+    basesepolia:
+      gasPrice: "1000058"
+      tokenDecimals: 18
+      tokenExchangeRate: "11000000000"
+  oracleKey: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+  overhead:
+    basesepolia: 75000
+  owner: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+  type: interchainGasPaymaster
+

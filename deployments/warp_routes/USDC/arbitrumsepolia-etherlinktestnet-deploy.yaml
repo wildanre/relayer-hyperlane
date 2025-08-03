@@ -1,0 +1,32 @@
+arbitrumsepolia:
+  interchainSecurityModule:
+    modules:
+      - relayer: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+        type: trustedRelayerIsm
+      - domains: {}
+        owner: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+        type: defaultFallbackRoutingIsm
+    threshold: 1
+    type: staticAggregationIsm
+  owner: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+  proxyAdmin:
+    address: "0x666a24F62f7A97BA33c151776Eb3D9441a059eB8"
+    owner: "0xfaD1C94469700833717Fa8a3017278BC1cA8031C"
+  token: "0xA81DAACD4C3fC6319991B617107440D64E7FabA9"
+  type: collateral
+etherlinktestnet:
+  interchainSecurityModule:
+    modules:
+      - relayer: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+        type: trustedRelayerIsm
+      - domains: {}
+        owner: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+        type: defaultFallbackRoutingIsm
+    threshold: 1
+    type: staticAggregationIsm
+  owner: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+  proxyAdmin:
+    address: "0x1666f73dAAf09E14A8db183414E231F348E093FB"
+    owner: "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42"
+  token: "0x69f38FFB1aB8f8f8A43F3D8d3CDAAF184CD54EcE"
+  type: collateral

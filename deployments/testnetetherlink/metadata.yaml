@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=../schema.json
+blockExplorers:
+  - apiUrl: https://testnet.explorer.etherlink.com/api/
+    family: blockscout
+    name: Etherlink Testnet explorer
+    url: https://testnet.explorer.etherlink.com/
+chainId: 128123
+displayName: Testnetetherlink
+domainId: 128123
+isTestnet: true
+name: testnetetherlink
+nativeToken:
+  decimals: 18
+  name: Tezos
+  symbol: XTZ
+protocol: ethereum
+rpcUrls:
+  - http: https://node.ghostnet.etherlink.com
+technicalStack: other

@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=../schema.json
+blockExplorers:
+  - apiKey: DG7K8I1UG76QJMKKFEQJJ8R7B7X2P81ZI7
+    apiUrl: https://api-sepolia.arbiscan.io/api/
+    family: etherscan
+    name: arbiscan
+    url: https://sepolia.arbiscan.io/
+chainId: 421614
+displayName: Arbitrumsepolia
+domainId: 421614
+index:
+  from: 178250468
+isTestnet: true
+name: arbitrumsepolia
+nativeToken:
+  decimals: 18
+  name: Ether
+  symbol: ETH
+protocol: ethereum
+rpcUrls:
+  - http: https://arbitrum-sepolia.drpc.org
+technicalStack: arbitrumnitro

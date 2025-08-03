@@ -1,0 +1,45 @@
+{
+  "hook": {
+    "etherlinktestnet": {
+      "0x6c61F83F8F71B9a62EbcD2DeF27310fAa085b28B": {
+        "owner": "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42",
+        "type": "interchainGasPaymaster",
+        "beneficiary": "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42",
+        "oracleKey": "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42",
+        "overhead": {
+          "basesepolia": 75000
+        },
+        "oracleConfig": {
+          "basesepolia": {
+            "gasPrice": "1000058",
+            "tokenExchangeRate": "11000000000",
+            "tokenDecimals": 18
+          }
+        },
+        "address": "0x6c61F83F8F71B9a62EbcD2DeF27310fAa085b28B"
+      },
+      "0x2E0404E800fcA783b5789fAAD261139FBd428BFB": {
+        "type": "merkleTreeHook",
+        "address": "0x2E0404E800fcA783b5789fAAD261139FBd428BFB"
+      },
+      "0x0256Caa90aA74C8c9894ab8447F95BBdE62509A2": {
+        "type": "merkleTreeHook",
+        "address": "0x0256Caa90aA74C8c9894ab8447F95BBdE62509A2"
+      },
+      "0x3A1d7877C714AF1EF07Fb9261230458B7c2DBDD6": {
+        "type": "merkleTreeHook",
+        "address": "0x3A1d7877C714AF1EF07Fb9261230458B7c2DBDD6"
+      }
+    }
+  },
+  "ism": {
+    "basesepolia": {
+      "0x924fF8657070da8e038F0B5867e09aFd7c46D1A9": {
+        "type": "trustedRelayerIsm",
+        "relayer": "0xa5ea1Cb1033F5d3BD207bF6a2a2504cF1c3e9F42",
+        "address": "0x924fF8657070da8e038F0B5867e09aFd7c46D1A9"
+      }
+    }
+  },
+  "backlog": []
+}
